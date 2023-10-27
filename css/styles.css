@@ -1,0 +1,802 @@
+/* home page css code */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{     
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5; 
+    color: #232D3F;
+    padding: 20px;
+    background-color: #ede6ecd9;
+}
+
+.header{
+    height: 95vh;
+    background-image: linear-gradient(to left top, 
+        rgba(137, 208, 243, 0.655),
+        rgba(0, 170, 255, 0.619)),
+         url(../images/backgroundImage2.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
+    border-radius: 5px;
+}
+
+.box-logo{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.logo{
+    height: 55px;
+    width: 95px;
+    cursor: pointer;
+}
+.logo:hover{
+    height: 60px;
+    width: 95px;
+    transition-duration: 0.5s;
+}
+
+.navMenu{
+    position: absolute;
+    top: 2.8%;
+    right: 1.3%;
+    display: inline-block;
+}
+.navMenu ul li{
+    padding: 5px 0;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.navMenu ul li a{
+    font-size: 13px;
+    font-weight: 450;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00aaffd1;
+    padding: 12px ;
+    color: #c2d9ff;
+    letter-spacing: 1px;
+    border-radius: 100px;
+}
+.navMenu ul li a:hover{
+    background-color: #cdf5fdb3;
+    color: #00aafffe;
+    transition: all 0.5s;
+    border: solid 1px #00aaffbc;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    text-align: center;
+}   
+.heading{
+    color: #cdf5fdf5;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 50px;
+}
+
+.main-heading{
+    margin-left: 9px;
+    display: block;
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    word-spacing: -1px;
+}
+
+.sub-heading{
+    margin-left: 11px;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 12.5px;
+}
+.btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px  25px;
+    display: inline-block;
+    border-radius: 25px;
+    border: #CDF5FD 0px solid;
+    letter-spacing: 6px;
+}
+
+.btn:hover{
+    background-color: #cdf5fdda;
+    color: #00aaff;
+    transition: all 0.5s;
+    border: solid 1px #00aaff;
+    margin: 10px;
+}
+
+.btn:hover:active{
+    transform: translateY(5px);
+    transition: all 0.1s;
+}
+
+.color-btn{
+    background-color: #00e5ff;
+    color: #CDF5FD;
+}
+
+.content-header{
+    height: 95vh;
+    background-size: cover;
+    background-position: top;
+    background-image: linear-gradient(to right bottom, 
+        rgba(137, 208, 243, 0.536),
+        rgba(0, 170, 255, 0.536)), url(../images/welcome.jpg);
+    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+    position: relative;
+    border-radius: 5px;
+}
+
+.welcome-box{
+    display: block;
+    position: absolute;
+    top: 12%;
+    left: 45%;
+    transform: translate(-15%);
+    border-radius: 10px;
+}
+.welcome-heading{
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 27px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #9145B6;
+    letter-spacing: 1px;
+}
+
+.para-box{
+    display: block;
+    position: absolute;
+    top: 21%;
+    left: 34.05%;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00e5ff;
+    border-radius: 20px;
+}
+
+.para-welcome{
+    display: block;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: #086E7D;
+}
+
+.para-welcome:hover{
+    margin-top: 10px;
+    padding: 20px;
+    transition: all 0.4s;
+}
+
+.knowMore-btn-box{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+
+.knowMore-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    border-radius: 100px;
+}
+
+.knowMore-btn-color{
+    background-color: #00aaff;
+    color: #CDF5FD;
+}
+.knowMore-btn-color:hover{
+    background-color: #00e5ff;
+    color: #1f6ed4;
+    margin-top: 10px;
+    transition: all 0.5s;
+    border: #1f6ed4 solid 1px;
+}
+.vision-mission-box{
+    position: absolute;
+    top: 12%;
+    text-align: center;
+    display: inline-block;
+    width: 19%;
+    left: 80%;
+}
+.vision-heading-box{
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+}
+.vision-heading{
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #9145B6;
+}
+
+.vision-para-box{
+    text-align: justify;
+    display: block;
+    margin-top: 19px;
+}
+.vision-para{
+    line-height: 30px;
+    color: #086E7D;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #00e5ff;
+}
+
+.mission-heading-box{
+    margin-top: 15px;
+}
+
+.mission-heading{
+    font-weight: 400;
+    color: #9145B6;
+}
+.mission-para-box{
+    text-align: justify;
+    margin-top: 17px;
+}
+
+.mission-para{
+    line-height: 30px;
+    color: #086E7D;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #00e5ff;
+}
+
+.service-container{
+    height: 95vh;
+    position: relative;
+    background-position: top;
+    background-size: cover;
+    background-image: linear-gradient(to right bottom, 
+        rgba(137, 208, 243, 0.536),
+        rgba(0, 170, 255, 0.536));
+    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+}
+
+.service-heading-box{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.service-heading{
+    color: #086E7D;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.contaract-container{
+    position: absolute;
+    top: 20%;
+    display: inline-block;
+    left: 1%;
+}
+
+.contaract-box{
+    background-color: #c2d9ff;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+    display: inline;
+}
+
+.contaract-service-heading{
+    margin-left: 4px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1px;
+    text-align: center;
+    color: #232D3F;
+}
+
+.image-contaract{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 195px;
+    width: 230px;
+}
+
+.para-contaract{
+    color: #086E7D;
+    text-align: justify;
+}
+
+.read-more-btn-box{
+    margin-top:20px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    width: 42%;
+}
+
+.btn-services{
+    background-color: #00aaff;
+    color: #CDF5FD;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    border-radius: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn-services:hover{
+    background-color: #CDF5FD;
+    color: #00aaff;
+    transition:  all 0.4s;
+    border: #00aaff solid 1px;
+}
+
+.cornea-container{
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    left: 27.6%;
+}
+.cornea-box{
+    background-color: #c2d9ff;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+    display: inline;
+}
+.cornea-service-heading{
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1px;
+    text-align: justify;
+    color: #232D3F;
+}
+
+.cornea-image{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 195px;
+    width: 240px;
+}
+.retina-container{
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    left: 55%;
+}
+.retina-box{
+    background-color: #c2d9ff;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+    display: inline;
+}
+.retina-service-heading{
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 1px;
+    text-align: justify;
+    color: #232D3F;
+}
+
+.retina-image{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 195px;
+    width: 240px;
+}
+
+.uveitis-container{
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    left: 81.35%;
+}
+.uveitis-box{
+    background-color: #c2d9ff;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+    display: inline;
+}
+.uveitis-service-heading{
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 1px;
+    text-align: justify;
+    color: #232D3F;
+}
+
+.uveitis-image{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 195px;
+    width: 240px;
+}
+
+.service-container2{
+    margin-top: -43px;
+    height: 95vh;
+    position: relative;
+    background-position: top;
+    background-size: cover;
+    background-image: linear-gradient(to right top, 
+    rgba(137, 208, 243, 0.536),
+    rgba(0, 170, 255, 0.536));
+    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+}
+
+/* booking page css code */
+
+.booking-container{
+    height: 115vh;
+    position: relative;
+    background-position: top;
+    background-size: cover;
+    background-image: linear-gradient(to right top, 
+    rgba(137, 208, 243, 0.536),
+    rgba(0, 170, 255, 0.536));
+}
+
+.booking-heading-box{
+    position: absolute;
+    display: block;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #00aaff;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+}
+
+.booking-heading{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #cdf5fddb;
+}
+
+.booking-form-mainBox{
+    height: 60vh;
+    width: 50%;
+    position: absolute;
+    display: block;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.booking-form-subBox{
+    margin: 10px;
+    position: relative;
+    height: 57.5vh;
+}
+
+.firstname-box{
+    left: 5%;
+    top: 2%;
+    position: absolute;
+}
+.firstname-box label{
+    color: #086E7D;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.firstname-box input{
+    border-style: none;
+}
+.lastname{
+    right: 5%;
+    top: 2%;
+    position: absolute;
+}
+
+/* footer section css code */
+
+.footer{
+    height: 55vh;
+    background-image: linear-gradient(to left top, 
+        rgb(77, 146, 250),
+        rgba(0, 170, 255, 0.949));
+    background-size: cover;
+    margin-top: 20px;
+    background-position: top;
+    position: relative;
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+}
+
+  .footer-box-logo{
+    position: absolute;
+    top: 60px;
+    left: 25px;
+  }
+
+  .service-list-box{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 200px;
+  }
+.service-list-heading-box{
+    padding: 0 10px;
+}
+.service-list-heading{
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    color: #CDF5FD;
+}
+.list-box{
+    padding: 10px;
+}
+.list-box p a{
+    color: #CDF5FD;
+    text-align: justify;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 27px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.list-box p a:hover{
+    color: #086E7D;
+    transition: all 0.4s;
+}
+
+.message-box{
+    position: absolute;
+    top: 50%;
+    right: 11.4%;
+    transform: translate(-50%);
+}
+.message-box label{
+    text-transform: uppercase;
+    color: #c2d9ff;
+}
+
+.message-btn{
+    background-color: #086E7D;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 550;
+    color: #CDF5FD;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.message-btn:hover{
+    background-color: #CDF5FD;
+    color: #086E7D;
+    border: #086E7D solid 1px;
+    transition: all 0.6s;
+}
+.textarea-box{
+    position: absolute;
+    top: 58%;
+    left: 76%;
+}
+.textarea-box form textarea{
+    color: #CDF5FD;
+    background-color: #27374D;
+    font-size: 13px;
+}
+.contact-us-box{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+.contact-us-heading{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #c2d9ff;
+    padding: 10px 0;
+}
+.social-box ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+.social-box ul li a img{
+    margin: 10px;
+}
+.social-box ul li a img:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all 0.4s;
+}
+.copyright-box{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.copyright-box p{
+    color: #c2d9ff;
+}
+
+/* login form css code */
+
+.login-header{
+    height: 95vh;
+    background-image: linear-gradient(to left bottom, 
+        rgba(27, 59, 107, 0.737),
+        rgba(13, 162, 237, 0.647)), url(../images/loginback.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    background-position: top;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+.login-container{
+    position: absolute;
+    background-color: #00aaff;
+    height: 60vh;
+    width: 60vh;
+    left: 50%;
+    background-image: url(../images/formback.jpg);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.login-heading-box{
+    display: inline-block;
+    position: absolute;
+    left: 27%;
+    top: 5%;
+}
+
+.login-heading{
+    color: #CDF5FD;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.username-box{
+    position: absolute;
+    top: 22%;
+    left: 29.4%;
+}
+.username-box form label{
+    text-align: justify;  
+    display: block;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    color: #CDF5FD;
+}
+
+.username-box form input{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(205, 245, 253, 0.825);
+    border: transparent;
+    color: #27374D;
+}
+.password-box{
+    position: absolute;
+    top: 44%;
+    left: 29.4%;
+}
+.password-box form label{
+    text-align: justify;  
+    display: block;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    color: #CDF5FD;
+}
+
+.password-box form input{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(205, 245, 253, 0.825);
+    color: #27374D;
+    border: transparent;
+}
+
+.forget-box{
+    position: absolute;
+    top: 62%;
+    left: 29.4%;
+}
+
+.forget-box a{
+    font-size: 15px;
+    color: #CDF5FD;
+    text-decoration: none;
+    
+}
+.login-btn-box{
+    position: absolute;
+    top: 77%;
+    left: 42.5%;
+}
+.login-btn{
+    text-decoration: none;
+    color: #CDF5FD;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: #CDF5FD 0.5px solid;
+    font-weight: 400;
+    border-radius: 50px;
+    padding: 10px 15px;
+    background-color: #443C68;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: #CDF5FD;
+    color: #27374D;
+    border: #232D3F 1px solid;
+    transition: all 0.5s;
+}
